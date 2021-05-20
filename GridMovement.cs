@@ -11,8 +11,7 @@ public class GridMovement : MonoBehaviour
     public Transform key, door, newRoom, oldRoom;
     Vector3 startPos;
     public bool hasKey;
-    public AudioSource speaker;
-    public AudioClip hazardClip;
+    
 
     // Start is called before the first frame update
     void Start() //like setup
